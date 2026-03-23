@@ -6,7 +6,7 @@ int main() {
         printf("Child process exit\n");
         _exit(0);
     } else {
-        sleep(30); // không wait ? zombie
+        sleep(30); // khÃ´ng wait ? zombie
     }
     return 0;
 }
